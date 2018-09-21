@@ -54,7 +54,7 @@ body {
 .l {
   color: white;
   font-size: 125px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 100;
   letter-spacing: 20px;
 }
@@ -74,30 +74,6 @@ body {
   height: 100%;
 }
 
-.menu-design:hover {
-  color: #AECAFF;
-}
-
-.menu-product:hover {
-  color: #FFCFD1;
-}
-
-.menu-personal:hover {
-  color: #A8949D;
-}
-
-.menu-about:hover {
-  color: #80839C;
-}
-
-.menu-contact:hover {
-  color: #8498BF;
-}
-
-.menu-photo:hover {
-  color: #FFCFD1;
-}
-
 .works {
   display: flex;
   align-items: center;
@@ -107,80 +83,18 @@ body {
 }
 
 .menu {
-  height: 50px;
+  height: 20px;
   width: 100%;
-  position: fixed; /* Stay in place */
   top: 0;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-x: hidden; 
   z-index: 100;
-  padding: 30px 50px;
-  /* visibility: hidden; */
-}
-
-.menu-button-head {
-  position: absolute;
-  bottom: 5%;
-  left: 48%;
-  cursor: pointer;
-  filter: brightness(50%);
-  z-index: 6;
-  transform: rotate(90deg) scaleX(.8) scaleY(.9);
-}
-
-.menu-button-head:hover {
-  filter: brightness(100%);
-  transform: scale(1.1) rotate(90deg) scaleX(.8) scaleY(.9);
-}
-
-.menu-button {
-  position: relative;
-  bottom: -100px;
-  cursor: pointer;
-  filter: brightness(50%);
-  transform: rotate(90deg) scaleX(.8) scaleY(.9);
-}
-
-.menu-button:hover {
-  filter: brightness(100%);
-  transform: scale(1.1) rotate(90deg) scaleX(.8) scaleY(.9);
-}
-
-.menu-button-lower {
-  position: relative;
-  bottom: -140px;
-}
-
-.links {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
-  flex-direction: column;
   position: fixed;
-  left: 1%;
-  bottom: 2%;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
-  letter-spacing: 1px;
-  font-size: 20px;
-  z-index: 105;
+  padding: 20px 50px;
+  background-color: #d5d6d2;
+  opacity: 0.7;
 }
 
-.button-links {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
 
-.link {
-  margin: 0 5px;
-  text-decoration: none;
-  color: white;
-  opacity: .6;
-}
-
-.link:hover {
-  opacity: 1;
-}
 
 #canvas {
   width: 100%;
