@@ -33,19 +33,13 @@ body {
   text-align: center;
 }
 
-.homescreen {
-  margin: 0;
-  padding: 0;
-  position: relative;
+body {
   background: #ff8d3f;
 background: -moz-linear-gradient(-45deg, #ff8d3f 0%, #ffcf32 55%, #ffe389 100%); 
 background: -webkit-linear-gradient(-45deg, #ff8d3f 0%,#ffcf32 55%,#ffe389 100%); 
 background: linear-gradient(135deg, #ff8d3f 0%,#ffcf32 55%,#ffe389 100%); 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d3f', endColorstr='#ffe389',GradientType=1 ); 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  
 }
 
 
