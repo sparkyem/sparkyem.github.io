@@ -29,6 +29,8 @@ body {
   font-size: 35px;
   letter-spacing: 10px;
   color: black;
+  width: 50%;
+  text-align: center;
 }
 
 .homescreen {
