@@ -26,15 +26,14 @@ body {
 .text {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 35px;
-  letter-spacing: 10px;
+  font-size: 30px;
+  letter-spacing: 5px;
   color: black;
   width: 50%;
   text-align: center;
 }
 
 .homescreen {
-  height: 100%;
   margin: 0;
   padding: 0;
   position: relative;
@@ -47,7 +46,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8d3f', end
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  z-index: 99;
 }
 
 
